@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>FarmHub.Domain.Services</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Adyen" Version="6.1.0" />
+      <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.2.2" />
+      <PackageReference Include="Z.EntityFramework.Plus.EFCore" Version="5.1.23" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FarmHub.Data\FarmHub.Data.csproj" />
+      <ProjectReference Include="..\FarmHub.Domain.Services\FarmHub.Domain.Services.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FarmHub", "FarmHub", "{CF51D34C-AD3A-4161-B257-4AE04CF52694}"
+	ProjectSection(SolutionItems) = preProject
+		FarmHub\Dockerfile = FarmHub\Dockerfile
+		FarmHub\Dockerfile.original = FarmHub\Dockerfile.original
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3E48294-D55D-48ED-A86F-DAEB9B4667FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmHub.Domain.Services.Tests", "FarmHub\FarmHub.Domain.Services.Tests\FarmHub.Domain.Services.Tests.csproj", "{EC6AF932-93A5-47B8-A871-1549F99F175E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{431897AC-1433-45B8-876B-C0BE32312943}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmHub.API.Tests", "FarmHub\FarmHub.API.Tests\FarmHub.API.Tests.csproj", "{9DE95134-1D8D-46CA-BE96-1ADE0624CCA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmHub.API", "FarmHub\FarmHub.API\FarmHub.API.csproj", "{FE3F7E09-1254-4FA0-B645-A0BC9ED89DA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmHub.Data", "FarmHub\FarmHub.Data\FarmHub.Data.csproj", "{E8641ECC-6CD7-497F-B75C-3C0E09FA9338}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmHub.Infrastructure.Services", "FarmHub\FarmHub.Infrastructure.Services\FarmHub.Infrastructure.Services.csproj", "{0019184E-EE70-4F3E-ABD7-28081783EC39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmHub.Infrastructure.Services.Tests", "FarmHub\FarmHub.Infrastructure.Services.Tests\FarmHub.Infrastructure.Services.Tests.csproj", "{0E399168-C3B0-4FC4-9455-7B3AD653392F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarmHub.Domain.Services", "FarmHub\FarmHub.Domain.Services\FarmHub.Domain.Services.csproj", "{68394940-F210-4A01-9855-C10BDBE588EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC6AF932-93A5-47B8-A871-1549F99F175E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6AF932-93A5-47B8-A871-1549F99F175E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6AF932-93A5-47B8-A871-1549F99F175E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6AF932-93A5-47B8-A871-1549F99F175E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE95134-1D8D-46CA-BE96-1ADE0624CCA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE95134-1D8D-46CA-BE96-1ADE0624CCA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE95134-1D8D-46CA-BE96-1ADE0624CCA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE95134-1D8D-46CA-BE96-1ADE0624CCA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3F7E09-1254-4FA0-B645-A0BC9ED89DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3F7E09-1254-4FA0-B645-A0BC9ED89DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3F7E09-1254-4FA0-B645-A0BC9ED89DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3F7E09-1254-4FA0-B645-A0BC9ED89DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8641ECC-6CD7-497F-B75C-3C0E09FA9338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8641ECC-6CD7-497F-B75C-3C0E09FA9338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8641ECC-6CD7-497F-B75C-3C0E09FA9338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8641ECC-6CD7-497F-B75C-3C0E09FA9338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0019184E-EE70-4F3E-ABD7-28081783EC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0019184E-EE70-4F3E-ABD7-28081783EC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0019184E-EE70-4F3E-ABD7-28081783EC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0019184E-EE70-4F3E-ABD7-28081783EC39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E399168-C3B0-4FC4-9455-7B3AD653392F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E399168-C3B0-4FC4-9455-7B3AD653392F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E399168-C3B0-4FC4-9455-7B3AD653392F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E399168-C3B0-4FC4-9455-7B3AD653392F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68394940-F210-4A01-9855-C10BDBE588EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68394940-F210-4A01-9855-C10BDBE588EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68394940-F210-4A01-9855-C10BDBE588EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68394940-F210-4A01-9855-C10BDBE588EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF51D34C-AD3A-4161-B257-4AE04CF52694} = {E3E48294-D55D-48ED-A86F-DAEB9B4667FE}
+		{EC6AF932-93A5-47B8-A871-1549F99F175E} = {431897AC-1433-45B8-876B-C0BE32312943}
+		{431897AC-1433-45B8-876B-C0BE32312943} = {CF51D34C-AD3A-4161-B257-4AE04CF52694}
+		{9DE95134-1D8D-46CA-BE96-1ADE0624CCA6} = {431897AC-1433-45B8-876B-C0BE32312943}
+		{FE3F7E09-1254-4FA0-B645-A0BC9ED89DA5} = {CF51D34C-AD3A-4161-B257-4AE04CF52694}
+		{E8641ECC-6CD7-497F-B75C-3C0E09FA9338} = {CF51D34C-AD3A-4161-B257-4AE04CF52694}
+		{0019184E-EE70-4F3E-ABD7-28081783EC39} = {CF51D34C-AD3A-4161-B257-4AE04CF52694}
+		{0E399168-C3B0-4FC4-9455-7B3AD653392F} = {431897AC-1433-45B8-876B-C0BE32312943}
+		{68394940-F210-4A01-9855-C10BDBE588EA} = {CF51D34C-AD3A-4161-B257-4AE04CF52694}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FB04CAA-1866-4046-B60F-23A5EE4D18A9}
+	EndGlobalSection
+EndGlobal

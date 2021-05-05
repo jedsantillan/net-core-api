@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Migrations\backup\**" />
+      <EmbeddedResource Remove="Migrations\backup\**" />
+      <None Remove="Migrations\backup\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Migrations\20200512142157_US49_FarmerCRUD.cs" />
+      <Compile Remove="Migrations\20200512142157_US49_FarmerCRUD.Designer.cs" />
+      <Compile Remove="Migrations\20200512145210_check.cs" />
+      <Compile Remove="Migrations\20200512145210_check.Designer.cs" />
+      <Compile Remove="Migrations\20200512145941_US49_FarmerCRUD.cs" />
+      <Compile Remove="Migrations\20200512145941_US49_FarmerCRUD.Designer.cs" />
+      <Compile Remove="Migrations\20200512150500_US49_FarmerCRUD.cs" />
+      <Compile Remove="Migrations\20200512150500_US49_FarmerCRUD.Designer.cs" />
+      <Compile Remove="Migrations\20200516151211_US50_UpdateSchema.cs" />
+      <Compile Remove="Migrations\20200516151211_US50_UpdateSchema.Designer.cs" />
+      <Compile Remove="Migrations\20200516151625_US50_SchemaChange.cs" />
+      <Compile Remove="Migrations\20200516151625_US50_SchemaChange.Designer.cs" />
+      <Compile Remove="Migrations\20200523152547_US79_PriceDiscountUpdates.cs" />
+      <Compile Remove="Migrations\20200523152547_US79_PriceDiscountUpdates.Designer.cs" />
+      <Compile Remove="Migrations\20200523154108_US79_DiscountCRUD.cs" />
+      <Compile Remove="Migrations\20200523154108_US79_DiscountCRUD.Designer.cs" />
+      <Compile Remove="Migrations\20200613095936_US105_ProductImages.cs" />
+      <Compile Remove="Migrations\20200613095936_US105_ProductImages.Designer.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Adyen" Version="6.1.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.4">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.8" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.8" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+      <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    </ItemGroup>
+
+</Project>
